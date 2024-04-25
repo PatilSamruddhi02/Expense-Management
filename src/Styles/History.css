@@ -1,0 +1,61 @@
+/* History.css */
+
+.history-container {
+  margin-top: px;
+  width: 95%;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.transaction-table {
+  width: 100%;
+  border: 1px solid #ccc; /* Remove double border */
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.transaction-table th {
+  background-color: #f2f2f2;
+}
+
+.transaction-table td ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-table td ul li {
+  margin-bottom: 5px;
+}
+
+/* Style for the sub-table */
+.expense-sub-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.expense-sub-table th,
+.expense-sub-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.expense-sub-table th {
+  background-color: #f2f2f2;
+}
+
+.total-savings {
+  margin-top: 20px;
+}
+
+.total-savings h3 {
+  margin-bottom: 10px;
+}
+
+.total-savings p {
+  font-weight: bold;
+}

@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0; /* Ensure navbar is aligned to the left */
+    right: 0; /* Ensure navbar is aligned to the right */
+    z-index: 1000; /* Set a high z-index to keep the navbar above other content */
+    width: 98%;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-links li:hover {
+    cursor: pointer;
+    color: #ffc107; /* Change color on hover */
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 400px;
+  }
+  
+  .navbar-search button {
+    padding: 6px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-icon:hover {
+    color: #ffc107; /* Change color on hover */
+  }
+  

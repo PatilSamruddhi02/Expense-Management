@@ -1,0 +1,67 @@
+/* InputForm.css */
+
+.form-container {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.form-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.form-container input[type="radio"] {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.form-container select {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.form-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+.month-picker-container {
+  width:105%;
+}
+.form-container input[type="date"]{
+  width:98%;
+  margin-bottom: 10px;
+  height:20px;
+}
